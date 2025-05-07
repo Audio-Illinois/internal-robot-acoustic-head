@@ -4,7 +4,7 @@ import numpy as np
 import soundfile as sf
 import sounddevice as sd
 import argparse
-sys.path.append('./robot-mount')
+sys.path.append('../robot-mount')
 from src import turret
 
 homing_delay = 3
@@ -58,8 +58,8 @@ if __name__ == '__main__':
     parser.add_argument('-w', '--writeto', required=True, type=str)
 
     parser.add_argument('-e', '--extent', default=360, type=int)
-    parser.add_argument('-i', '--increment', default=0.45, type=float)
-    parser.add_argument('-g', '--gain', default=-20, type=float)
+    parser.add_argument('-i', '--increment', default=45, type=float)
+    parser.add_argument('-g', '--gain', default=0, type=float)
     parser.add_argument('-c', '--channels', default=2, type=int)
     args = parser.parse_args()
 

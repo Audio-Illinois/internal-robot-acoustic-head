@@ -4,7 +4,7 @@ import numpy as np
 import soundfile as sf
 import sounddevice as sd
 import argparse
-sys.path.append('./robot-mount')
+sys.path.append('../robot-mount')
 from src import turret
 
 delay = 2
@@ -69,10 +69,11 @@ if __name__ == '__main__':
     parser.add_argument('-r', '--readfrom', required=True, type=str)
     parser.add_argument('-w', '--writeto', required=True, type=str)
 
-    parser.add_argument('-s', '--speed', default=0.2, type=float)
+    parser.add_argument('-s', '--speed', default=0.1, type=float)
     parser.add_argument('-e', '--extent', default=360, type=int)
-    parser.add_argument('-g', '--gain', default=-20, type=float) # in dB
+    parser.add_argument('-g', '--gain', default=0, type=float) # in dB
     parser.add_argument('-c', '--channels', default=2, type=int) # recording channels
+    parser.add_argument('-md', '--movement-delay', default=0, type=float) # delay (seconds) between starting movement and recording/playback
     args = parser.parse_args()
 
     # Set up serial communication to robot
@@ -120,7 +121,8 @@ if __name__ == '__main__':
         rps=args.speed,
         play_audio=play_audio,
         out_path=args.writeto,
-        fs=fs
+        fs=fs,
+        movement_delay=args.movement_delay,
     )
     time.sleep(delay)
 

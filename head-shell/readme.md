@@ -2,7 +2,7 @@
 
 When equipped with microphones in the faux ear canals, this dummy head can record realistic binaural audio. Using a loudspeaker at the mouth position, it may also produce humanlike speech, with appropriate directivity.
 
-The parts are interlocking so that the design is fully 3D printed. Small bolts can be used for stronger assembly, but this is optional.
+The parts are interlocking so that the design is fully 3D printed. Small screws can be used for stronger assembly, but this is optional.
 
 <div style="text-align:center">
 <img alt="Exploded view of head parts" src="./imgs/exploded.png" width=50%>
@@ -48,7 +48,7 @@ Need help getting started? Check out:
 | [Countryman B3 Omnidirectional Lavalier](https://countryman.com/product/b3-omnidirectional-lavalier/) | 2 | Omnidirectional <br/> Wired, for synchronous multi-channel audio <br/> Friction-fit between microphone cap and ear parts. |
 | [Tectonic TEBM34C10-4 BMR 2" Full-Range Speaker](https://www.parts-express.com/Tectonic-TEBM35C10-4-BMR-2-Full-Range-Speaker-4-Ohm-297-216) | 1 | Human-like directivity ([compared to a studio monitor](https://pubs.aip.org/asa/jasa/article/148/4/2371/995223)) <br/> Flat frequency response |
 | [Fosi Audio TB10D Amplifier](https://fosiaudio.com/pages/2-channel-amplifier-tb10d) | 1 | |
-| [M2x12mm bolts](https://www.mcmaster.com/products/screws/thread-size~m2/length~12-mm/) for fastening the loudspeaker | 4 | |
+| [M2x12mm screws](https://www.mcmaster.com/products/screws/thread-size~m2/length~12-mm/) for fastening the loudspeaker | 4 | |
 | [M2 nuts](https://www.mcmaster.com/products/nuts/thread-size~m2/) for fastening the loudspeaker | 4 | |
-| [M2x6mm bolts](https://www.mcmaster.com/products/screws/thread-size~m2/length~6-mm/) for fastening the ears/scalp (optional) | 4 | |
+| [M2x6mm screws](https://www.mcmaster.com/products/screws/thread-size~m2/length~6-mm/) for fastening the ears/scalp (optional) | 4 | |
 
