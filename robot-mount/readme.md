@@ -61,10 +61,16 @@ Final assembled PCB:
 
 The PCB can be connected to the motor as follows:
 <div style="text-align:center">
-<img src="imgs/stepper-connections.webp" alt="" width="70%"/>
+<img src="imgs/stepper-connections.webp" alt="Table of how to connect the motor to the driver" width="70%"/>
 </div>
 
 Follow [this](https://github.com/teemuatlut/TMC2208Stepper?tab=readme-ov-file) github tutorial to solder a UART bridge on the TMC motor driver.
+
+Final assembled robot with dummy head:
+
+<div style="text-align:center">
+<img src="imgs/print_assembly.png" alt="Annotated photos of the dummy head atop the turntable. PCB excluded." width="70%"/>
+</div>
 
 ## 💾 3. Software
 
