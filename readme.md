@@ -37,9 +37,9 @@ Further, detailed information can be found in each directory. `auto-audio` presu
 Each subdirectory contains a README with build instructions, parts lists, and diagrams. To get started quickly:
 
 1. Clone this repo
-2. Review the [`head-shell`](./head-shell) and [`ear-assemblies`](./ear-assemblies) for 3D printing and assembly
-3. Follow [`robot-mount`](./robot-mount) to attach the head to your robot
-4. Use [`audio-calibration`](./audio-calibration) to validate audio performance
+2. Review the [`head-shell`](./head-shell) to purchase and assemble the parts of the dummy head
+3. Follow [`robot-mount`](./robot-mount) to purchase and assemble the parts of the robot turntable
+4. Use [`auto-audio`](./auto-audio) to perform automatic audio recordings using the head + robot
 
 ## Applications
 
