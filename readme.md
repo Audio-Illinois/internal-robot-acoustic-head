@@ -53,5 +53,13 @@ Each subdirectory contains a README with build instructions, parts lists, and di
 If you use this resource in your research, please cite the following. Various acousitic measurements validating the acoustic realism of the dummy head or quietness and repeatability of the robot are provided in the paper as well.
 
 ```
-Pending
+@misc{lu2025,
+      title={Accelerating Audio Research with Robotic Dummy Heads}, 
+      author={Austin Lu and Kanad Sarkar and Yongjie Zhuang and Leo Lin and Ryan M Corey and Andrew C Singer},
+      year={2025},
+      eprint={2505.04548},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2505.04548}, 
+}
 ```
