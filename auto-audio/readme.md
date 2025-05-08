@@ -53,6 +53,6 @@ to have the dummy head rotate _while_ audio is played and recorded. Before recor
 
 > 💡 A possible issue is latency in the recorded audio. This can be remedied with a loopback audio channel and subsequent sample-wise synchronization in post-processing.
 
-> 💡 The above scripts were tested on an host PC with Ubuntu 20.04 LTS, ALSA audio, and Python 3.8.10, connected to a [ehringer U-Phoria UMC202HD](https://www.behringer.com/product.html?modelCode=0805-AAR) audio interface.
+> 💡 The above scripts were tested on an host PC with Ubuntu 20.04 LTS, ALSA audio, and Python 3.8.10, connected to a [Behringer U-Phoria UMC202HD](https://www.behringer.com/product.html?modelCode=0805-AAR) audio interface.
 
 > 💡 Due to the choice of a weak-as-possible stepper motor, any tangles in the dummy head cables will **not** cause the dummy head to fall, or the cables to be damaged.
