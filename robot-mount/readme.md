@@ -74,8 +74,6 @@ Final assembled robot with dummy head:
 
 ## 💾 3. Software
 
-Once the PCB, 3D printed turntable, and 
-
 #### 1. Setup host PC
 
 Clone the repository
