@@ -92,6 +92,8 @@ python3 -m pip install -r ./requirements.txt
 
 Install [`arduino-cli`](https://docs.arduino.cc/arduino-cli/installation/) for convenient Arduino flashing. Then, run:
 ```bash
+arduino-cli lib install tmc2208stepper # install needed library package
+
 cd scripts
 python3 ./upload.py -P $PORT
 ```
